@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de PDFs e Votação</title> 
+    <link rel="stylesheet" href="css/style.css">   
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <header>
+        <section>
+            <h2>Galeria de Projetos - Jornal Etec</h2>
+            <p>Registre-se para visualizar e votar nos documentos.</p>
+        </section>
+        <section class="register-section" id="registerSection">
+            <input type="text" id="userNameInput" placeholder="Digite seu nome">
+            <button class="btn-primary" onclick="registerUser()">Entrar e Votar</button>
+        </section>
+        <section id="userInfo" style="display: none;">
+            <strong id="displayUserName"></strong>
+            <button class="btn-cancel" onclick="logoutUser()" style="margin-left: 10px; padding: 4px 8px;">Sair</button>
+        </section>
+    </header>
+
+    <main class="pdf-grid" id="pdfGrid">
+        <!-- Os PDFs serão renderizados aqui pelo JavaScript -->
+    </main>
+
+    <!-- Modal para visualização do PDF -->
+    <section class="modal-overlay" id="pdfModal">
+        <section class="modal-content">
+            <section class="modal-header">
+                <h3 id="modalTitle" style="margin: 0;">Visualizador de PDF</h3>
+                <button class="close-modal" onclick="closeModal()">&times;</button>
+            </section>
+            <iframe id="pdfViewer" src=""></iframe>
+        </section>
+    </section>    
+</body>
+</html>
