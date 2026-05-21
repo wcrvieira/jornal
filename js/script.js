@@ -1,5 +1,5 @@
 // === CONFIGURAÇÃO DO SUPABASE (COLE SUAS CHAVES AQUI) ===
-        const SUPABASE_URL = 'https://kumpbuzzpocupglrhmqq.supabase.co/pdfs'; 
+        const SUPABASE_URL = 'https://kumpbuzzpocupglrhmqq.supabase.co'; 
         const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt1bXBidXp6cG9jdXBnbHJobXFxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkzMDk3NjcsImV4cCI6MjA5NDg4NTc2N30.MSeQzvx9YPqsp_VQRd7pw0kySvpVMBVkHuLyaYjY35g'; 
 
         // Cabeçalhos exigidos pela API do Supabase
