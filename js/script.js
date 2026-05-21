@@ -57,7 +57,7 @@
             grid.innerHTML = ''; 
 
             pdfData.forEach(pdf => {
-                const card = document.createElement('div');
+                const card = document.createElement('section');
                 card.className = 'pdf-card';
                 
                 const btnState = currentUser ? '' : 'disabled';
